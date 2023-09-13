@@ -59,7 +59,7 @@ export default function Login() {
           handleOpen();
           await localStorage.removeItem("cUserId");
           await localStorage.removeItem("cUserToken");
-          const response = await fetch("http://localhost:7004/user/signin", {
+          const response = await fetch("https://ecommerce-8rwm.onrender.com/user/signin", {
             method: "POST",
             body: JSON.stringify(data),
             headers: {
