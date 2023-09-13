@@ -18,8 +18,9 @@ app.use(cors());
 
 // connection url
 
-const connection_url =
-  "mongodb+srv://user1:12345@cluster0.c6r2o.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+//const connection_url = "mongodb+srv://user1:12345@cluster0.c6r2o.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+
+const connection_url='mongodb+srv://rahul:rahul@cluster0.qnvsgtx.mongodb.net/?retryWrites=true&w=majority'
 
 mongoose.connect(connection_url, {
   useNewUrlParser: true,
